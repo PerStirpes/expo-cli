@@ -414,7 +414,7 @@ export async function runShellAppModificationsAsync(
 
     await regexFileAsync(
       'TEMPLATE_INITIAL_URL',
-      url,
+      `${url}/index.exp`,
       path.join(
         shellPath,
         'app',
